@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "name": "macos-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "cStandard": "${default}",
+      "intelliSenseMode": "macos-gcc-x64",
+      "cppStandard": "${default}",
+      "macFrameworkPath": [],
+      "compilerArgs": [
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic"
+      ],
+      "compilerPath": "/usr/bin/clang",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    },
+    {
+      "name": "mac",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "intelliSenseMode": "macos-clang-x64"
+    },
+    {
+      "name": "iclude/path",
+      "includePath": [
+        "${default}"
+      ],
+      "defines": [],
+      "cStandard": "c17",
+      "intelliSenseMode": "macos-clang-x64",
+      "compilerPath": "/usr/bin/clang++",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
